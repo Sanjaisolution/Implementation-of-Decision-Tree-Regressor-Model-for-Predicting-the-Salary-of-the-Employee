@@ -8,31 +8,57 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1.Import required libraries: Load necessary libraries for data manipulation, encoding, model training, and evaluation.
+STEP1:
 
-2.Load the dataset: Read the CSV file containing the salary data.
+Import required libraries: Load necessary libraries for data manipulation, encoding, model training, and evaluation.
 
-3.Explore the dataset and Display the first few rows to understand the structure and Check the data types and null values for each column.
+STEP2:
 
-4.Identify and handle any missing values.
+Load the dataset: Read the CSV file containing the salary data.
 
-5.Encode categorical data: Use LabelEncoder to transform categorical variables like "Position" into numerical values.
+STEP3:
 
-6.Feature selection: Select the independent variables (features) such as "Position" and "Level".
+Explore the dataset and Display the first few rows to understand the structure and Check the data types and null values for each column.
 
-7.Select the target variable: Assign the dependent variable, "Salary", as the target.
+STEP4:
 
-8.Split the dataset: Divide the dataset into training and testing sets, ensuring a portion of the data is reserved for model evaluation.
+Identify and handle any missing values.
 
-9.Initialize and train the model: Use the Decision Tree Regressor to fit the model on the training data.
+STEP5:
 
-10.Make predictions: Use the trained model to predict salaries for the test dataset.
+Encode categorical data: Use LabelEncoder to transform categorical variables like "Position" into numerical values.
 
-11.Evaluate the model 12.Calculate the Mean Squared Error (MSE) to measure the average squared difference between actual and predicted values.
+STEP6:
 
-13Calculate the R-squared score to determine how well the model explains the variability in the data.
+Feature selection: Select the independent variables (features) such as "Position" and "Level".
 
-14.Make new predictions: Use the model to predict the salary for a specific combination of "Position" and "Level" values.
+STEP7:
+
+Select the target variable: Assign the dependent variable, "Salary", as the target.
+
+STEP8:
+
+Split the dataset: Divide the dataset into training and testing sets, ensuring a portion of the data is reserved for model evaluation.
+
+STEP9:
+
+Initialize and train the model: Use the Decision Tree Regressor to fit the model on the training data.
+
+STEP10:
+
+Make predictions: Use the trained model to predict salaries for the test dataset.
+
+STEP11:
+
+Evaluate the model 12.Calculate the Mean Squared Error (MSE) to measure the average squared difference between actual and predicted values.
+
+STEP12:
+
+Calculate the R-squared score to determine how well the model explains the variability in the data.
+
+STEP13:
+
+Make new predictions: Use the model to predict the salary for a specific combination of "Position" and "Level" values.
 
 ## Program:
 ```
